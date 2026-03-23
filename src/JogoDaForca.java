@@ -1,5 +1,9 @@
+import javax.swing.*;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Random;
+import java.util.Scanner;
 
 public class JogoDaForca {
     private ArrayList<String[]> bancoPalavras = new ArrayList<>();
@@ -14,14 +18,34 @@ public class JogoDaForca {
     private boolean terminou = false;
 
     public JogoDaForca(){
+        InputStream stream = this.getClass().getResourceAsStream("/dados/palavras.csv");
+        if (stream == null) {
+            JOptionPane.showMessageDialog(null, "Arquivo de palavras inexistente!");
+            System.exit(0);
+        }
+        Scanner arquivo = new Scanner(stream);
+        String linha;
+        while (arquivo.hasNext()) {
+            linha = arquivo.nextLine();
 
+            String[] palavraDica = linha.split(",");
+
+            if(!linha.isEmpty()){
+                bancoPalavras.add(palavraDica);
+            }
+        }
+        arquivo.close();
     }
 
     public void iniciar(){
-
+        Random random = new Random();
+        String[] sorteio = bancoPalavras.get(random.nextInt(bancoPalavras.size()));
+        this.palavraSorteada = sorteio[0];
+        this.dica = sorteio [1];
     }
 
     public String getDica(){
+        return this.dica;
     }
 
     public String getPalavra(){
