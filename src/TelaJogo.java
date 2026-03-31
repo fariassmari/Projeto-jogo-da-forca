@@ -12,6 +12,7 @@ public class TelaJogo {
     private JLabel lbl6Resultado;
     private JLabel lbl7Acertos;
     private JLabel lbl8Penalidade;
+    private JLabel lbl9Imagem;
     private JTextArea txt10Historico;
 
     public TelaJogo() {
@@ -48,10 +49,30 @@ public class TelaJogo {
                 jogo.getOcorrencias(txt4Letra.getText());
                 atualizarTela();
                 txt4Letra.setText("");
-            } catch (Exception e) {
-                JOptionPane.showMessageDialog(frame, e.getMessage());
+            } catch (Exception error) {
+                JOptionPane.showMessageDialog(frame, error.getMessage());
             }
         });
+        lbl6Resultado = new JLabel("Resultado: ");
+        lbl6Resultado.setBounds(20, 180, 300, 30);
+        frame.add(lbl6Resultado);
+
+        lbl7Acertos = new JLabel("Acertos: 0");
+        lbl7Acertos.setBounds(20, 210, 300, 30);
+        frame.add(lbl7Acertos);
+
+        lbl8Penalidade = new JLabel("Penalidade: 0 - sem penalidades");
+        lbl8Penalidade.setBounds(20, 240, 350, 30);
+        frame.add(lbl8Penalidade);
+
+        lbl9Imagem = new JLabel();
+        lbl9Imagem.setBounds(200, 20, 150, 150);
+        frame.add(lbl9Imagem);
+
+        txt10Historico = new JTextArea();
+        txt10Historico.setBounds(20, 280, 340, 180);
+        txt10Historico.setEditable(false);
+        frame.add(txt10Historico);
         frame.setVisible(true);
 
     }
@@ -66,5 +87,12 @@ public class TelaJogo {
         for (String h : jogo.getResultados()){
             txt10Historico.append(h + "\n");
         }
+
+        int codigoImagem = 6 - jogo.getCodigoPenalidade();
+
+        ImageIcon imagem = new ImageIcon(
+                getClass().getResource("/imagens/" + codigoImagem + ".png")
+        );
+        lbl9Imagem.setIcon(imagem);
     }
 }
