@@ -1,161 +1,161 @@
-banana,fruta amarela
-abacaxi,fruta tropical espinhosa
-laranja,fruta citrica
-morango,fruta vermelha pequena
-computador,maquina eletronica
-teclado,periferico de digitacao
-monitor,tela do computador
-mouse,dispositivo de controle
-internet,rede mundial
-software,programa de computador
-hardware,parte fisica do computador
-algoritmo,secuencia de passos logicos
-programacao,atividade de codar
-java,linguagem de programacao
-python,linguagem de programacao
-compilador,traduz codigo fonte
-debug,processo de corrigir erros
-variavel,armazenamento de dados
-funcao,bloco de codigo reutilizavel
-classe,modelo de objeto
-objeto,instancia de classe
-metodo,funcao dentro de classe
-arquivo,conjunto de dados
-sistema,conjunto organizado
-rede,conexao entre dispositivos
-servidor,fornece servicos
-cliente,consome servicos
-banco de dados,armazenamento estruturado
-sql,linguagem de consulta
-json,formato de dados
-xml,formato de marcacao
-api,interface de comunicacao
-framework,estrutura de desenvolvimento
-biblioteca,conjunto de codigos reutilizaveis
-interface,tela ou contrato
-usuario,pessoa que utiliza sistema
-senha,codigo secreto
-login,entrada no sistema
-logout,saida do sistema
-seguranca,protecao de dados
-criptografia,tecnica de codificacao
-firewall,protege redes
-navegador,programa de acessar sites
-site,pagina na internet
-dominio,endereco web
-servidor web,fornece paginas
-frontend,parte visual
-backend,parte logica
-fullstack,atua em tudo
-responsivo,adaptavel a telas
-design,projeto visual
-ux,experiencia do usuario
-ui,interface visual
-aplicativo,software para usuario
-celular,dispositivo movel
-tablet,dispositivo portatil
-notebook,computador portatil
-desktop,computador de mesa
-memoria,armazenamento temporario
-processador,cerebro do computador
-placa mae,componente principal
-hd,armazenamento fisico
-ssd,armazenamento rapido
-nuvem,armazenamento remoto
-backup,copia de seguranca
-restauracao,recuperar dados
-erro,falha no sistema
-bug,problema no codigo
-teste,validacao de sistema
-qualidade,nivel de excelencia
-documentacao,descricao do sistema
-projeto,planejamento de sistema
-equipe,grupo de pessoas
-gerente,responsavel por equipe
-prazo,tempo limite
-entrega,finalizacao
-versao,iteracao do sistema
-atualizacao,melhoria do sistema
-download,baixar arquivo
-upload,enviar arquivo
-streaming,transmissao online
-video,midia visual
-audio,midia sonora
-imagem,representacao visual
-texto,conteudo escrito
-mensagem,comunicacao
-email,correio eletronico
-chat,conversa online
-rede social,plataforma de interacao
-perfil,informacoes do usuario
-senha forte,senha segura
-autenticacao,verificacao de identidade
-token,chave de acesso
-sessao,periodo de uso
-log,registro de eventos
-monitoramento,acompanhamento
-analise,estudo de dados
-relatorio,documento informativo
-grafico,representacao visual
-estatistica,analise numerica
-inteligencia artificial,area da computacao
-machine learning,aprendizado de maquina
-dados,informacoes
-big data,grande volume de dados
-algoritmo genetico,tecnica evolutiva
-rede neural,modelo computacional
-automacao,processo automatico
-robotica,area de robos
-sensores,dispositivos de captura
-atuadores,executam acoes
-energia,fonte de funcionamento
-bateria,armazenamento de energia
-eletricidade,energia eletrica
-circuito,conjunto eletrico
-resistor,componente eletrico
-capacitor,armazenamento de carga
-transistor,componente eletronico
-microcontrolador,controlador pequeno
-arduino,plataforma eletronica
-raspberry,computador compacto
-linux,sistema operacional
-windows,sistema operacional
-macos,sistema operacional
-terminal,interface de comando
-comando,instrucao digitada
-script,sequencia automatizada
-bash,interpretador de comandos
-shell,interface de comandos
-compilar,transformar codigo
-executar,rodar programa
-instalar,colocar programa
-configurar,ajustar sistema
-otimizar,m melhorar desempenho
-processo,tarefa em execucao
-thread,subprocesso
-concorrencia,execucao simultanea
-paralelismo,execucao paralela
-deadlock,travamento de processos
-cache,memoria rapida
-buffer,armazenamento temporario
-fila,estrutura de dados
-pilha,estrutura de dados
-lista,estrutura de dados
-arvore,estrutura hierarquica
-grafo,estrutura de conexoes
-busca,procurar elemento
-ordenacao,organizar dados
-recursao,funcao que chama a si mesma
-iteracao,repeticao
-loop,estrutura de repeticao
-condicional,decisao logica
-booleano,valor verdadeiro ou falso
-inteiro,numero sem decimal
-decimal,numero com casas
-string,texto em codigo
-char,caractere unico
-array,vetor de dados
-matriz,vetor bidimensional
-ponteiro,referencia de memoria
-memoria heap,area dinamica
-memoria stack,area estatica
+banana;fruta amarela
+abacaxi;fruta tropical espinhosa
+laranja;fruta cítrica
+morango;fruta vermelha pequena
+computador;máquina eletrônica
+teclado;periférico de digitação
+monitor;tela do computador
+mouse;dispositivo de controle
+internet;rede mundial
+software;programa de computador
+hardware;parte física do computador
+algoritmo;sequência de passos lógicos
+programacao;atividade de codar
+java;linguagem de programação
+python;linguagem de programação
+compilador;traduz código fonte
+debug;processo de corrigir erros
+variavel;armazenamento de dados
+funcao;bloco de código reutilizável
+classe;modelo de objeto
+objeto;instância de classe
+metodo;função dentro de classe
+arquivo;conjunto de dados
+sistema;conjunto organizado
+rede;conexão entre dispositivos
+servidor;fornece serviços
+cliente;consome serviços
+banco de dados;armazenamento estruturado
+sql;linguagem de consulta
+json;formato de dados
+xml;formato de marcação
+api;interface de comunicação
+framework;estrutura de desenvolvimento
+biblioteca;conjunto de códigos reutilizáveis
+interface;tela ou contrato
+usuario;pessoa que utiliza sistema
+senha;código secreto
+login;entrada no sistema
+logout;saída do sistema
+seguranca;proteção de dados
+criptografia;técnica de codificação
+firewall;protege redes
+navegador;programa de acessar sites
+site;página na internet
+dominio;endereço web
+servidor web;fornece páginas
+frontend;parte visual
+backend;parte lógica
+fullstack;atua em tudo
+responsivo;adaptável a telas
+design;projeto visual
+ux;experiência do usuário
+ui;interface visual
+aplicativo;software para usuário
+celular;dispositivo móvel
+tablet;dispositivo portátil
+notebook;computador portátil
+desktop;computador de mesa
+memoria;armazenamento temporário
+processador;cérebro do computador
+placa mae;componente principal
+hd;armazenamento físico
+ssd;armazenamento rápido
+nuvem;armazenamento remoto
+backup;cópia de segurança
+restauracao;recuperar dados
+erro;falha no sistema
+bug;problema no código
+teste;validação de sistema
+qualidade;nível de excelência
+documentacao;descrição do sistema
+projeto;planejamento de sistema
+equipe;grupo de pessoas
+gerente;responsável por equipe
+prazo;tempo limite
+entrega;finalização
+versao;iteração do sistema
+atualizacao;melhoria do sistema
+download;baixar arquivo
+upload;enviar arquivo
+streaming;transmissão online
+video;mídia visual
+audio;mídia sonora
+imagem;representação visual
+texto;conteúdo escrito
+mensagem;comunicação
+email;correio eletrônico
+chat;conversa online
+rede social;plataforma de interação
+perfil;informações do usuário
+senha forte;senha segura
+autenticacao;verificação de identidade
+token;chave de acesso
+sessao;período de uso
+log;registro de eventos
+monitoramento;acompanhamento
+analise;estudo de dados
+relatorio;documento informativo
+grafico;representação visual
+estatistica;análise numérica
+inteligencia artificial;área da computação
+machine learning;aprendizado de máquina
+dados;informações
+big data;grande volume de dados
+algoritmo genetico;técnica evolutiva
+rede neural;modelo computacional
+automacao;processo automático
+robotica;área de robôs
+sensores;dispositivos de captura
+atuadores;executam ações
+energia;fonte de funcionamento
+bateria;armazenamento de energia
+eletricidade;energia elétrica
+circuito;conjunto elétrico
+resistor;componente elétrico
+capacitor;armazenamento de carga
+transistor;componente eletrônico
+microcontrolador;controlador pequeno
+arduino;plataforma eletrônica
+raspberry;computador compacto
+linux;sistema operacional
+windows;sistema operacional
+macos;sistema operacional
+terminal;interface de comando
+comando;instrução digitada
+script;sequência automatizada
+bash;interpretador de comandos
+shell;interface de comandos
+compilar;transformar código
+executar;rodar programa
+instalar;colocar programa
+configurar;ajustar sistema
+otimizar;melhorar desempenho
+processo;tarefa em execução
+thread;subprocesso
+concorrencia;execução simultânea
+paralelismo;execução paralela
+deadlock;travamento de processos
+cache;memória rápida
+buffer;armazenamento temporário
+fila;estrutura de dados
+pilha;estrutura de dados
+lista;estrutura de dados
+arvore;estrutura hierárquica
+grafo;estrutura de conexões
+busca;procurar elemento
+ordenacao;organizar dados
+recursao;função que chama a si mesma
+iteracao;repetição
+loop;estrutura de repetição
+condicional;decisão lógica
+booleano;valor verdadeiro ou falso
+inteiro;número sem decimal
+decimal;número com casas
+string;texto em código
+char;caractere único
+array;vetor de dados
+matriz;vetor bidimensional
+ponteiro;referência de memória
+memoria heap;área dinâmica
+memoria stack;área estática
