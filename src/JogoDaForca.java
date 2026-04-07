@@ -28,7 +28,7 @@ public class JogoDaForca {
         while (arquivo.hasNext()) {
             linha = arquivo.nextLine();
 
-            String[] palavraDica = linha.split(",");
+            String[] palavraDica = linha.split(";");
 
             if(!linha.isEmpty()){
                 bancoPalavras.add(palavraDica);
@@ -87,7 +87,7 @@ public class JogoDaForca {
             }
         }
 
-        if (posicoes.size() > 0){
+        if (!posicoes.isEmpty()){
             if (!letrasAdivinhadas.contains(caractere)){
                 letrasAdivinhadas.add(caractere);
                 acertos += posicoes.size();
@@ -123,12 +123,12 @@ public class JogoDaForca {
     public String getNomePenalidade(){
         String[] nomes = {
                 "sem penalidades",
-                "perdeu cabeça",
-                "perdeu tronco",
+                "perdeu primeira perna",
+                "perdeu segunda perna",
                 "perdeu primeiro braço",
                 "perdeu segundo braço",
-                "perdeu primeira perna",
-                "perdeu segunda perna"
+                "perdeu tronco",
+                "perdeu cabeça"
         };
         return nomes[penalidades];
     }
