@@ -1,57 +1,41 @@
-import javax.swing.*;
-import java.awt.Component;
 import java.util.ArrayList;
 
+import javax.swing.JOptionPane;
+
 public class Teste {
-    private String letraDigitada;
-    private ArrayList<Integer> ocorrencias;
+    private String letraDigitada; // letra lida do teclado
+    private ArrayList<Integer> ocorrencias; // posicoes adivinhadas
     private JogoDaForca jogo = new JogoDaForca();
 
     public Teste() {
-        JOptionPane.showMessageDialog(null,
-                "Bem-vindo ao Jogo da Forca!\nTente adivinhar a palavra.");
-
+        JOptionPane.showMessageDialog(null, "Bem-vindo ao Jogo da Forca! \nTente adivinhar a palavra secreta. ");
         jogo.iniciar();
-
         do {
-            letraDigitada = JOptionPane.showInputDialog(null,
-                    "Dica: " + jogo.getDica() +
-                            "\nPalavra: " + jogo.getPalavra() +
-                            "\nDigite uma letra:");
-
+            letraDigitada = JOptionPane.showInputDialog(null, "dica: " + jogo.getDica() + "\ndigite uma letra: ");
             try {
-                if (letraDigitada == null || letraDigitada.isEmpty()) {
-                    throw new Exception("Digite uma letra válida!");
-                }
-
                 ocorrencias = jogo.getOcorrencias(letraDigitada);
-
-                if (ocorrencias.size() > 0) {
+                if (ocorrencias.size() > 0)
                     JOptionPane.showMessageDialog(null,
-                            "Você acertou a letra: " + letraDigitada +
-                                    "\n\nPalavra: " + jogo.getPalavra() +
-                                    "\nAcertos: " + jogo.getAcertos() +
-                                    "\nPenalidade: " + jogo.getCodigoPenalidade() +
-                                    " - " + jogo.getNomePenalidade());
-                } else {
+                            "voce acertou a letra =" + letraDigitada + "\n------------RESUMO-------------------"
+                                    + "\n palavra adivinhada=" + jogo.getPalavra() + "\n total de acertos = "
+                                    + jogo.getAcertos() + "\n penalidade = " + jogo.getCodigoPenalidade() + "-"
+                                    + jogo.getNomePenalidade() + "\n-------------------------------------");
+                else
                     JOptionPane.showMessageDialog(null,
-                            "Você errou a letra: " + letraDigitada +
-                                    "\n\nPalavra: " + jogo.getPalavra() +
-                                    "\nAcertos: " + jogo.getAcertos() +
-                                    "\nPenalidade: " + jogo.getCodigoPenalidade() +
-                                    " - " + jogo.getNomePenalidade());
-                }
-
+                            "voce errou a letra =" + letraDigitada + "\n------------RESUMO-------------------"
+                                    + "\n palavra adivinhada=" + jogo.getPalavra() + "\n total de acertos = "
+                                    + jogo.getAcertos() + "\n penalidade = " + jogo.getCodigoPenalidade() + "-"
+                                    + jogo.getNomePenalidade() + "\n-------------------------------------");
             } catch (Exception e) {
-                JOptionPane.showMessageDialog(null, e.getMessage());
+                JOptionPane.showMessageDialog(null,"mensagem="+ e.getMessage());
             }
-
         } while (!jogo.terminou());
 
-        JOptionPane.showMessageDialog(null,
-                "Resultado final: " + jogo.getResultado());
+        JOptionPane.showMessageDialog(null, "resultado final = " + jogo.getResultado());
+
     }
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         new Teste();
     }

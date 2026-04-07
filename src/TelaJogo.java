@@ -18,7 +18,7 @@ public class TelaJogo {
 
     public TelaJogo() {
         frame = new JFrame("Jogo da Forca");
-        frame.setSize(400, 550);
+        frame.setSize(400, 520);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
 
@@ -72,7 +72,7 @@ public class TelaJogo {
 
         lbl8Penalidade = new JLabel("Penalidade: 0 - sem penalidades");
         lbl8Penalidade.setForeground(new Color(255,0,0));
-        lbl8Penalidade.setBounds(20, 240, 350, 30);
+        lbl8Penalidade.setBounds(100, 210, 350, 30);
         frame.add(lbl8Penalidade);
 
         lbl9Imagem = new JLabel();
@@ -80,7 +80,7 @@ public class TelaJogo {
         frame.add(lbl9Imagem);
 
         txt10Historico = new JTextArea();
-        txt10Historico.setBounds(20, 280, 340, 180);
+        txt10Historico.setBounds(20, 260, 340, 180);
         txt10Historico.setEditable(false);
         txt10Historico.setVisible(false);
         frame.add(txt10Historico);
